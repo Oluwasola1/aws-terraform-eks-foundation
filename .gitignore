@@ -1,0 +1,26 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+!terraform.tfvars.example
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Terraform lock file — commit this one, don't ignore it
+!.terraform.lock.hcl
+
+# Kubeconfig (never commit cluster credentials)
+kubeconfig
+*.kubeconfig
+
+# OS / editor
+.DS_Store
+.vscode/
+*.log

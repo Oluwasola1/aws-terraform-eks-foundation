@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and adjust values as needed.
+# terraform.tfvars is gitignored — never commit real account-specific values
+# if they contain anything sensitive.
+
+aws_region   = "eu-central-1"
+environment  = "dev"
+project_name = "eks-foundation"
