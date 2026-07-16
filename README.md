@@ -104,7 +104,8 @@ aws eks update-kubeconfig --region eu-central-1 --name eks-foundation
 kubectl get nodes
 ```
 
-![kubectl get nodes](../screenshots/04-kubectl-get-nodes.png)
+<img width="1919" height="1079" alt="04-kubectl-get-nodes" src="https://github.com/user-attachments/assets/780a8d5f-ac38-4e04-aec8-66566e9b566f" />
+
 
 ### 6. Deploy the sample app with Helm
 
@@ -118,8 +119,10 @@ kubectl get svc demo-hello-world
 Wait for the `EXTERNAL-IP` on the LoadBalancer service, then open it in a
 browser.
 
-![Helm deployed app](../screenshots/05-helm-deployed-app.png)
-![App running in browser](../screenshots/06-app-in-browser.png)
+<img width="1919" height="1079" alt="05-helm-deployed-app" src="https://github.com/user-attachments/assets/3485d114-137c-41e3-b7eb-dcd8c48c0afb" />
+
+<img width="1917" height="1079" alt="06-app-in-browser" src="https://github.com/user-attachments/assets/e073dfc5-6d39-4e17-a5b8-2498cb3929af" />
+
 
 ### 7. Cleanup — always do this
 
@@ -132,7 +135,8 @@ terraform destroy
 Type `yes` when prompted. Confirm in the AWS Console that the cluster, NAT
 Gateway, and VPC are gone.
 
-![Terraform destroy complete](../screenshots/07-terraform-destroy-complete.png)
+<img width="1915" height="1077" alt="07-terraform-destroy-complete" src="https://github.com/user-attachments/assets/5ed5dd25-4de1-4f70-94fe-bbe116584f41" />
+
 
 ## What this project demonstrates
 
