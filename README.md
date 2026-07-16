@@ -152,4 +152,4 @@ Gateway, and VPC are gone.
 
 ---
 
-**Author:** Oluwasola Ogundana — [GitHub](https://github.com/Oluwasola1) · [LinkedIn](#)
+**Author:** Oluwasola Ogundana — [GitHub](https://github.com/Oluwasola1) · [LinkedIn](https://www.linkedin.com/in/oluwasola-ogundana-3381b11a5/)
