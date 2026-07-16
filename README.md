@@ -4,10 +4,6 @@ Infrastructure-as-Code project that provisions a production-style AWS
 networking layer and a working Amazon EKS (Kubernetes) cluster from scratch
 using Terraform — then deploys a sample application onto it with Helm.
 
-This is Project 1 of a 3-part DevOps portfolio series:
-1. **AWS Terraform + EKS Foundation** ← you are here
-2. CI/CD Pipeline with GitHub Actions (deploys onto this cluster)
-3. Observability Stack with Prometheus + Grafana (monitors this cluster)
 
 ## Architecture
 
@@ -98,7 +94,8 @@ terraform apply
 Type `yes` when prompted. This takes **10–20 minutes** — EKS control planes
 are slow to provision, that's normal.
 
-![Terraform apply complete](../screenshots/03-terraform-apply-complete.png)
+<img width="1919" height="1079" alt="03-terraform-apply-complete" src="https://github.com/user-attachments/assets/bf45ffda-6ba2-4a23-8ca3-b12d4e616ecf" />
+
 
 ### 5. Connect kubectl to the new cluster
 
