@@ -2,7 +2,7 @@
 
 Infrastructure-as-Code project that provisions a production-style AWS
 networking layer and a working Amazon EKS (Kubernetes) cluster from scratch
-using Terraform — then deploys a sample application onto it with Helm.
+using Terraform - then deploys a sample application onto it with Helm.
 
 This is Project 1 of a 3-part DevOps portfolio series:
 1. **AWS Terraform + EKS Foundation** ← you are here
@@ -15,7 +15,7 @@ This is Project 1 of a 3-part DevOps portfolio series:
 
 - A VPC spanning **2 Availability Zones** for high availability
 - **Public subnets** hold the NAT Gateway and any Load Balancers
-- **Private subnets** hold the EKS worker nodes — nodes are never directly
+- **Private subnets** hold the EKS worker nodes - nodes are never directly
   exposed to the internet
 - The **EKS control plane** is fully managed by AWS
 - Traffic flow: Internet → Internet Gateway → Load Balancer (public subnet)
@@ -35,7 +35,7 @@ This is Project 1 of a 3-part DevOps portfolio series:
 
 Install these locally before starting:
 
-- [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) — configured with an IAM user (`aws configure`)
+- [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) - configured with an IAM user (`aws configure`)
 - [Terraform](https://developer.hashicorp.com/terraform/install) `>= 1.6.0`
 - [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 - [Helm](https://helm.sh/docs/intro/install/) `>= 3.0`
@@ -43,7 +43,7 @@ Install these locally before starting:
 
 > **Cost warning:** EKS charges ~$0.10/hour for the control plane, plus EC2
 > costs for worker nodes and a NAT Gateway. Running this for a few hours to
-> take screenshots costs a small amount — **always run `terraform destroy`
+> take screenshots costs a small amount - **always run `terraform destroy`
 > when you're done** (see Cleanup below).
 
 ## Repo structure
@@ -95,7 +95,7 @@ terraform plan
 terraform apply
 ```
 
-Type `yes` when prompted. This takes **10–20 minutes** — EKS control planes
+Type `yes` when prompted. This takes **10–20 minutes** - EKS control planes
 are slow to provision, that's normal.
 
 <img width="1919" height="1079" alt="03-terraform-apply-complete" src="https://github.com/user-attachments/assets/bf45ffda-6ba2-4a23-8ca3-b12d4e616ecf" />
@@ -128,7 +128,7 @@ browser.
 <img width="1917" height="1079" alt="06-app-in-browser" src="https://github.com/user-attachments/assets/e073dfc5-6d39-4e17-a5b8-2498cb3929af" />
 
 
-### 7. Cleanup — always do this
+### 7. Cleanup - always do this
 
 ```bash
 helm uninstall demo
