@@ -4,7 +4,11 @@ Infrastructure-as-Code project that provisions a production-style AWS
 networking layer and a working Amazon EKS (Kubernetes) cluster from scratch
 using Terraform — then deploys a sample application onto it with Helm.
 
-
+This is Project 1 of a 3-part DevOps portfolio series:
+1. **AWS Terraform + EKS Foundation** ← you are here
+2. CI/CD Pipeline with GitHub Actions (deploys onto this cluster)
+3. Observability Stack with Prometheus + Grafana (monitors this cluster)
+   
 ## Architecture
 
 ![Architecture diagram](diagrams/architecture.svg)
